@@ -1,0 +1,13 @@
+.navbar {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .nav-link {
+    font-size: 1.1rem;
+    margin-right: 1rem;
+  }
+  
+  .nav-link:hover {
+    color: #ffc107 !important;
+  }
+  
