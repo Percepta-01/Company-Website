@@ -1,7 +1,7 @@
 .hero {
   background-image: url('https://i.postimg.cc/tRZByPqc/photo-1603366615917-1fa6dad5c4fa.avif');
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
   height: 100%;
   width: 100%;
   /* display: flex; */

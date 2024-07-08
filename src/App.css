@@ -1,0 +1,14 @@
+/* Apply this to your main CSS file */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* This will prevent horizontal scrolling */
+  }
+  
+  .main-container {
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    background-color: your-desired-color; /* Change to your desired background color */
+  }
+  
+  

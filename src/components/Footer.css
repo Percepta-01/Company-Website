@@ -1,37 +1,54 @@
 .foot {
-  text-align: center;
   background-color: black;
   color: white;
-  padding: 40px 20px;
+  padding: 60px 20px; /* Increased padding to increase height */
 }
 
 .foot-header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px; /* Added max-width to center the content */
+  margin: 0 auto; /* Center the footer content */
 }
 
-.logo-and-tagline {
+.left-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
 }
 
 .logo-icon {
   font-size: 50px;
 }
 
-.tagline p {
-  margin: 0;
-  font-size: 24px;
+.tagline {
+  margin: 20px 0;
 }
 
-.contact, .explore {
-  text-align: center;
+.contact {
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
 }
 
-.contact h2, .explore h2 {
+.contact h2 {
+  margin-bottom: 10px;
+}
+
+.explore {
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.explore h2 {
   margin-bottom: 10px;
 }
 
@@ -44,8 +61,13 @@
   margin: 5px 0;
 }
 
+.social-media {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
 .social-media a {
-  margin: 0 10px;
   color: white;
   font-size: 24px;
 }
@@ -55,39 +77,18 @@ address {
   font-style: normal;
 }
 
-@media (min-width: 768px) {
-  .foot-header {
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: left;
-  }
-
-  .logo-and-tagline, .contact, .explore, .social-media {
-    flex: 1;
-  }
-
-  .tagline, .contact, .explore, .social-media {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .social-media {
-    display: flex;
-    justify-content: center;
-  }
-
-  .social-media a {
-    margin: 0 10px;
-  }
-}
-
 @media (max-width: 767px) {
-  .logo-icon, .tagline p, .contact h2, .explore h2, .explore ul, address {
+  .foot-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-section, .contact, .explore {
+    align-items: center;
     text-align: center;
   }
 
   .social-media {
-    display: flex;
     justify-content: center;
   }
 }

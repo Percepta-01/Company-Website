@@ -6,11 +6,18 @@ const Footer = () => {
   return (
     <div className="foot">
       <header className="foot-header">
-        <div className="logo">
-          <span className="logo-icon">Λ</span>
-        </div>
-        <div className="tagline">
-          <p>Making great things in Silicon Valley.</p>
+        <div className="left-section">
+          <div className="logo">
+            <span className="logo-icon">Λ</span>
+          </div>
+          <div className="tagline">
+            <p>Making great things in <br />Silicon Valley.</p>
+          </div>
+          <div className="social-media">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-twitter"></i></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-facebook"></i></a>
+          </div>
         </div>
         <div className="contact">
           <h2>GET IN TOUCH</h2>
@@ -28,11 +35,6 @@ const Footer = () => {
             <li><a href="#">Contact</a></li>
           </ul>
           <address>75 E Santa Clara St, Ste 1425 San Jose, California 95113</address>
-        </div>
-        <div className="social-media">
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-twitter"></i></a>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-facebook"></i></a>
         </div>
       </header>
     </div>
