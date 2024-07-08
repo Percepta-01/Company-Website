@@ -1,94 +1,93 @@
 .foot {
-    text-align: center;
-    background-color: black;
-    color: white;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 40px 20px;
+}
+
+.foot-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-and-tagline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-icon {
+  font-size: 50px;
+}
+
+.tagline p {
+  margin: 0;
+  font-size: 24px;
+}
+
+.contact, .explore {
+  text-align: center;
+}
+
+.contact h2, .explore h2 {
+  margin-bottom: 10px;
+}
+
+.explore ul {
+  list-style: none;
+  padding: 0;
+}
+
+.explore ul li {
+  margin: 5px 0;
+}
+
+.social-media a {
+  margin: 0 10px;
+  color: white;
+  font-size: 24px;
+}
+
+address {
+  margin-top: 10px;
+  font-style: normal;
+}
+
+@media (min-width: 768px) {
   .foot-header {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .logo-and-tagline, .contact, .explore, .social-media {
+    flex: 1;
+  }
+
+  .tagline, .contact, .explore, .social-media {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .social-media {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
   }
-  
-  .logo-icon {
-    font-size: 50px;
-    margin-left: -800px;
-   
-    
 
-  }
-  
-  .tagline {
-    margin: 20px 0;
-    font-size: 24px;
-    margin-left: -800px;
-
-  }
-  
-  .contact, .explore {
-    margin: 20px 0;
-    text-decoration: none;
-    color: white;
-  
-    
-    
-  }
-  
-  .contact h2, .explore h2 {
-    margin-bottom: 10px;
-    text-decoration: none;
-    color: white;
-   
-    
-    
-  }
-  
-  .explore ul {
-    list-style: none;
-    padding: 0;
-    
-    
-   
-  }
-  
-  .explore ul li {
-    margin: 5px 0;
-    
-    
-    
-    
-  }
-  
   .social-media a {
     margin: 0 10px;
-    color: azure;
+  }
+}
 
+@media (max-width: 767px) {
+  .logo-icon, .tagline p, .contact h2, .explore h2, .explore ul, address {
+    text-align: center;
+  }
 
+  .social-media {
+    display: flex;
+    justify-content: center;
   }
-  
-  .social-media i {
-   
-    text-decoration: none;
-    margin-left: -400px;
-    margin-right: 100px;
-
-
-  }
-  
-  address {
-    margin-top: 10px;
-    font-style: normal;
-  }
-  .explore{
-    text-decoration: none;
-    color: white;
-  }
-  #ins{
-    margin-left: -100px;
-  }
-  
+}

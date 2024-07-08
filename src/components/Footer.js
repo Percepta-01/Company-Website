@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Footer.css'
+import './Footer.css';
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
           <span className="logo-icon">Λ</span>
         </div>
         <div className="tagline">
-          <p>Making great things in <br></br>Silicon Valley.</p>
+          <p>Making great things in Silicon Valley.</p>
         </div>
         <div className="contact">
           <h2>GET IN TOUCH</h2>
@@ -30,10 +30,9 @@ const Footer = () => {
           <address>75 E Santa Clara St, Ste 1425 San Jose, California 95113</address>
         </div>
         <div className="social-media">
-          <i id='ins' class="fa-brands fa-instagram color: #B197FC  ;"> </i>
-          <i id='tw' class="fa-brands fa-twitter color: #63E6BE; "></i>
-          <i id='fa' class="fa-brands fa-facebook color: #d2144d ;"></i>
-
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-twitter"></i></a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-facebook"></i></a>
         </div>
       </header>
     </div>
