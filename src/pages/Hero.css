@@ -171,4 +171,42 @@
   }
 }
 
+/* Base CSS for "LET'S TALK" */
+.link {
+  font-size: 1rem;
+  position: absolute;
+  top: 35px;
+  right: 250px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+/* Media query for large screens */
+@media (max-width: 1200px) {
+  .link {
+    font-size: 0.9rem;
+    top: 15px;
+    right: 15px;
+  }
+}
+
+/* Media query for medium screens */
+@media (max-width: 830px) {
+  .link {
+    font-size: 0.8rem;
+    top: 10px;
+    right: 10px;
+  }
+}
+
+/* Media query for small screens (mobile) */
+@media (max-width: 600px) {
+  .link {
+    font-size: 0.7rem;
+    top: 5px;
+    right: 5px;
+  }
+}
 
