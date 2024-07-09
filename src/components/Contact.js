@@ -15,20 +15,20 @@ const Contact = () => {
         <img className='pic' src='https://i.postimg.cc/W4ppqJ14/CMP-Baunfire-Services-Creative-2.webp' alt='Creative Work' />
       </div>
       <p className='para1'>We build impactful experiences through <br></br> great UX , design and development .</p>
-    <br></br>
-    <button className='btn1'>VIEW OUR SERVICES +</button>
+      <br></br>
+      <button className='btn1'>VIEW OUR SERVICES +</button>
 
-    {/* <div>
-    <img className='pic1' src='https://i.postimg.cc/sXR4fR9f/download.jpg' ></img>
-    <p className='para2'>We identify business challenges and <br></br> develop solutions to achieve your goals .</p>
-    <br></br>
-    </div>
-    <div>
-    <img className='pic2' src='https://i.postimg.cc/ncT4PcQy/images-2.jpg' ></img>
-    <p className='para3'>We identify business challenges and <br></br> develop solutions to achieve your goals .</p>
-    <button className='btn1'>VIEW OUR SERVICES +</button>
-    <br></br>
-    </div> */}
+      {/* <div>
+      <img className='pic1' src='https://i.postimg.cc/sXR4fR9f/download.jpg' ></img>
+      <p className='para2'>We identify business challenges and <br></br> develop solutions to achieve your goals .</p>
+      <br></br>
+      </div>
+      <div>
+      <img className='pic2' src='https://i.postimg.cc/ncT4PcQy/images-2.jpg' ></img>
+      <p className='para3'>We identify business challenges and <br></br> develop solutions to achieve your goals .</p>
+      <button className='btn1'>VIEW OUR SERVICES +</button>
+      <br></br>
+      </div> */}
     </section>
   );
 };
