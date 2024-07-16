@@ -3,8 +3,14 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './Contact.css';
+import { useNavigate } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
 
-const Contact = () => {
+
+
+function Contact  ()  {
+  const navigate = useNavigate()
+
   return (
     <section id="contact" className="py-5 bg-light">
       <div id='div' className="container">
@@ -16,7 +22,7 @@ const Contact = () => {
       </div>
       <p className='para1'>We build impactful experiences through <br></br> great UX , design and development .</p>
       <br></br>
-      <button className='btn1'>VIEW OUR SERVICES +</button>
+      <Button onClick={()=> navigate("/service")}  className='btn1'>VIEW OUR SERVICES +</Button>
 
       {/* <div>
       <img className='pic1' src='https://i.postimg.cc/sXR4fR9f/download.jpg' ></img>

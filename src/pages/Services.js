@@ -1,10 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Services.css';
-import { Link } from 'react-router-dom';
+import { Link, } from 'react-router-dom';
+
 
 
 const Services = () => {
+
   return (
     <section id="services" className="py-5 bg-light">
       <div className="container">
@@ -40,7 +42,7 @@ const Services = () => {
 
             </div>
           </div>
-        <Link className='link1'>View More Works  + </Link>
+        <Link to="/works" className='link1'>View More Works  + </Link>
 
         </div>
       </div>

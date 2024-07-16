@@ -1,7 +1,12 @@
 import React from 'react';
 import './Insights.css';
+import { Button } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
+
 
 function Insights() {
+  const navigate = useNavigate()
+
   return (
     <div className="insights-container">
       <div className="header">
@@ -35,7 +40,7 @@ function Insights() {
         </div>
       </div>
 
-      <button className="view-more-btn">VIEW MORE INSIGHTS +</button>
+      <Button onClick={() => navigate("/insights")} className="view-more-btn">VIEW MORE INSIGHTS +</Button>
     </div>
   );
 }
