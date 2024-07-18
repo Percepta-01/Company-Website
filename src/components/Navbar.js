@@ -9,7 +9,7 @@ function OffcanvasExample() {
   return (
     <Navbar expand="lg" className="navbar navbar-inverse navbar-fixed-top" id='navbar'>
       <Container>
-        <Navbar.Brand href="#" className="text-white">BAUNFIRE</Navbar.Brand>
+        <Navbar.Brand href="#" className="text-white" id='name'>BAUNFIRE</Navbar.Brand>
         <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" className="border-0">
         </Navbar.Toggle>
         <Navbar.Offcanvas
@@ -37,3 +37,5 @@ function OffcanvasExample() {
 }
 
 export default OffcanvasExample;
+
+

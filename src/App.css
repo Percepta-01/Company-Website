@@ -8,7 +8,7 @@ body, html {
   .main-container {
     width: 100vw; /* Full viewport width */
     height: 100vh; /* Full viewport height */
-    background-color: your-desired-color; /* Change to your desired background color */
+    background-color: black; /* Change to your desired background color */
   }
   
   

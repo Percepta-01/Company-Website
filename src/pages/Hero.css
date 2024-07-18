@@ -2,7 +2,7 @@
   background-image: url('https://i.postimg.cc/tRZByPqc/photo-1603366615917-1fa6dad5c4fa.avif');
   background-size: cover;
   /* background-position: center; */
-  height: 100vh;
+  height: 100%;
   width: 100%;
   /* display: flex; */
   justify-content: center;
@@ -30,19 +30,19 @@
   font-size: 5rem;
   font-weight:700;
   margin-right: 400px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .hero-subtitle {
   font-size: 1.5rem;
   margin-right: 330px;
-  margin-bottom: 70px;
+  margin-bottom: 80px;
 }
 
 .hero-subname {
-  margin-bottom: 110px;
+  margin-bottom: 50px;
   margin-right: 900px;
-  margin-top: 120px;
+  margin-top: 50px;
   letter-spacing: 7px;
   color: orangered;
   font-weight: bold;
@@ -52,6 +52,7 @@
 .button {
   margin-right: 800px;
   letter-spacing: 3px;
+  margin-bottom: 70px;
 }
 
 /* Responsive design */
