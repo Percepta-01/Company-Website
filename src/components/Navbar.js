@@ -1,23 +1,39 @@
-import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
+import Offcanvas from 'react-bootstrap/Offcanvas';
+import Nav from 'react-bootstrap/Nav';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
-const NavigationBar = () => {
+function OffcanvasExample() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-      <Navbar.Brand href="#home">My Website</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#services">Services</Nav.Link>
-          <Nav.Link href="#testimonials">Testimonials</Nav.Link>
-          <Nav.Link href="#contact">Contact</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
+    <Navbar expand="lg" className="navbar navbar-inverse navbar-fixed-top" id='navbar'>
+      <Container>
+        <Navbar.Brand href="#" className="text-white">BAUNFIRE</Navbar.Brand>
+        <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" className="border-0">
+        </Navbar.Toggle>
+        <Navbar.Offcanvas
+          id="offcanvasNavbar-expand-lg"
+          aria-labelledby="offcanvasNavbarLabel-expand-lg"
+          placement="end"
+        >
+          <Offcanvas.Header closeButton>
+            <Offcanvas.Title id="offcanvasNavbarLabel-expand-lg">
+              Menu
+            </Offcanvas.Title>
+          </Offcanvas.Header>
+          <Offcanvas.Body>
+            <Nav className="justify-content-end flex-grow-1 pe-3">
+            <span className="text-white">      
+                <Link className='link' to="/contact">LET'S TALK</Link> 
+                 </span>
+            <i className="fa-solid fa-bars fa-fade text-white fa-2xl"></i>
+            </Nav>
+          </Offcanvas.Body>
+        </Navbar.Offcanvas>
+      </Container>
     </Navbar>
   );
-};
+}
 
-export default NavigationBar;
+export default OffcanvasExample;

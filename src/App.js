@@ -11,18 +11,20 @@ import Knowus from './pages/Knowus';
 import Works from './pages/Works';
 import Ourservice from './pages/Ourservice';
 import Moreinsights from './pages/Moreinsights';
+import NavigationBar from './components/Navbar';
 
 
 
 function App() {
   return (
     <div className="App">
-      {/* Navigation Bar */}
+            <NavigationBar/>
       <Routes>
         <Route
           path="/"
           element={
             <>
+
               {/* Hero Section */}
               <Hero />
 
