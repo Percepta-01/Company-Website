@@ -11,7 +11,7 @@ function Knowus() {
       <h1 className='hed1'>A passionate <br></br> team, rooted in<br></br> digital.</h1>
 
 
-      <p className='para2'>Building great things in the <br></br> heart of Silicon Valley.</p>
+      <p className='para2' style={{marginRight:"80px"}}>Building great things in the <br></br> heart of Silicon Valley.</p>
 
       {/* //image */}
 
