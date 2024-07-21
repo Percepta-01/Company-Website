@@ -8,14 +8,14 @@ function Knowus() {
     <div>
       <p className='para'>WHO WE ARE</p>
 
-      <h1 className='hed1'>A passionate <br></br> team, rooted in<br></br> digital.</h1>
+      <h1 className='a1'>A passionate <br></br> team, rooted in<br></br> digital.</h1>
 
 
       <p className='para2' style={{marginRight:"80px"}}>Building great things in the <br></br> heart of Silicon Valley.</p>
 
       {/* //image */}
 
-        <img src='https://i.postimg.cc/rwqzdH09/About-Hero-2.webp' className='img1' />
+        <img src='https://i.postimg.cc/rwqzdH09/About-Hero-2.webp' className='a2' />
 
         <div className='div1'>
           <p className='para3'>A DIGITAL AGENCY</p>
