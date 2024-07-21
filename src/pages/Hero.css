@@ -1,7 +1,6 @@
 .hero {
   background-image: url('https://i.postimg.cc/tRZByPqc/photo-1603366615917-1fa6dad5c4fa.avif');
   background-size: cover;
-  /* background-position: center; */
   height: 100%;
   width: 100%;
   display: flex;
@@ -9,12 +8,13 @@
   position: relative;
 }
 
-/* new subname */
-
-/* #subname{
+#subname {
   margin-top: 170px;
+  letter-spacing: 7px;
+  color: orangered;
+  font-weight: bold;
   margin-right: 950px;
-} */
+}
 
 .hero-content {
   position: relative;
@@ -25,7 +25,7 @@
 
 .hero-title {
   font-size: 5rem;
-  font-weight:700;
+  font-weight: 700;
   margin-right: 400px;
   margin-top: 70px;
 }
@@ -36,17 +36,6 @@
   margin-top: 40px;
 }
 
-/* dont delete this css */
-
-/* .hero-subname {
-  margin-bottom: 50px;
-  margin-right: 900px;
-  letter-spacing: 7px;
-  color: orangered;
-  font-weight: bold;
-} */
-
-
 .button {
   margin-right: 800px;
   letter-spacing: 3px;
@@ -56,60 +45,52 @@
 
 /* Responsive design */
 
-@media (max-width: 1200px) {
+@media (max-width: 1190px) {
   .hero-title {
     font-size: 4rem;
     margin-right: 300px;
   }
   .hero-subtitle {
     font-size: 1.3rem;
-    margin-right: 250px;
+    margin-right: 200px;
   }
-  .hero-name {
-    font-size: 1.8rem;
-    margin-right: 900px;
-  }
-  .hero-subname {
-    font-size: 1.2rem;
-    margin-right: 700px;
+  #subname {
+    font-size: 1rem;
+    margin-top: 140px;
+    margin-right: 520px;
   }
   .button {
     margin-right: 500px;
   }
 }
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
   .hero-title {
     font-size: 2.5rem;
     margin-right: 50px;
-    margin-top: 180px;
+    margin-top: 50px;
   }
   .hero-subtitle {
     font-size: 0.8rem;
     margin-right: 50px;
     margin-top: 0;
-    margin-bottom: 20px;
     padding: 10px;
   }
-  .hero-name {
+  #subname {
     font-size: 1rem;
-    margin-right: 600px;
-    margin-bottom: 80px;
-    padding: 5px;
+    margin-top: 150px;
+    margin-right: 150px;
+    margin-bottom: 60px;
   }
   .button {
     margin-right: 60px;
-    margin-top: 50px;
+    margin-top: 20px;
     letter-spacing: 0px;
     padding: 5px;
   }
 }
 
-@media (max-width: 400px) {
-  .hero {
-    font-size: 14px;
-    padding: 10px;
-  }
+@media (max-width: 445px) {
   .hero-title {
     font-size: 2rem;
     margin-right: 0;
@@ -117,27 +98,22 @@
     padding: 10px;
   }
   .hero-subtitle {
-    font-size: 1rem;
+    font-size: 0.6rem;
     margin-right: 0;
     padding: 20px;
     margin-bottom: 40px;
   }
-  .hero-name {
+  #subname {
     font-size: 1rem;
+    margin-top: 100px;
+    margin-left: 10px;
     margin-right: 0;
-    margin-bottom: 50px;
-  }
-  .hero-subname {
-    font-size: 1rem;
-    margin-right: 0;
-    margin-top: 0;
-    margin-bottom: 60px;
     padding: 5px;
   }
   .button {
     margin-right: 0;
     padding: 5px;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
   }
 }
 
@@ -152,4 +128,3 @@
   text-decoration: none;
   margin-bottom: 40px;
 }
-
