@@ -12,6 +12,10 @@ import Works from './pages/Works';
 import Ourservice from './pages/Ourservice';
 import Moreinsights from './pages/Moreinsights';
 import NavigationBar from './components/Navbar';
+import Work1 from './pages/Work1';
+import Work2 from './pages/Work2';
+import Work3 from './pages/Work3';
+import Work4 from './pages/Work4';
 
 
 
@@ -58,6 +62,24 @@ function App() {
           path="/service"
           element={<Ourservice />}
         />
+
+<Route
+          path="/work1"
+          element={<Work1 />}
+        />
+         <Route
+          path="/work2"
+          element={<Work2 />}
+        />
+         <Route
+          path="/work3"
+          element={<Work3 />}
+        />
+         <Route
+          path="/work4"
+          element={<Work4 />}
+        />
+
 
          <Route
           path="/insights"
