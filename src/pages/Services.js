@@ -1,20 +1,17 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Services.css';
-import { Link, useNavigate, } from 'react-router-dom';
-
+import { Link, } from 'react-router-dom';
 
 
 
 const Services = () => {
-  const navigate = useNavigate()
-
 
   return (
     <section id="services" className="py-5 bg-light">
       <div className="container">
         <div className="">
-        <i class="fa-solid fa-star fa-beat fa-2xl" style={{marginLeft:"-50px"}}></i>
+        <i className="fa-solid fa-star fa-beat fa-2xl" style={{marginLeft:"-50px"}}></i>
           <div className="col ">
             <h1 className='h1'>Featured Work</h1>
             <p className="lead">Explore some of our latest website projects..</p>
@@ -23,25 +20,25 @@ const Services = () => {
         <div className="row">
           <div className="col">
             <div className="card text-center">
-              <img onClick={() => navigate("/work1")} src='https://i.postimg.cc/YC0JsTWS/Baunfire-Karat-Website-Case-Study-00-Thumbnail-840x1122.webp'></img>
+              <img src='https://i.postimg.cc/YC0JsTWS/Baunfire-Karat-Website-Case-Study-00-Thumbnail-840x1122.webp'></img>
 
             </div>
           </div>
           <div className="col">
             <div className="card text-center">
-              <img onClick={() => navigate("/work2")} src='https://i.postimg.cc/L8hjg3r7/01-U-Baunfire-Case-Study-Cellares-Website-Thumbnail.webp'></img>
+              <img src='https://i.postimg.cc/L8hjg3r7/01-U-Baunfire-Case-Study-Cellares-Website-Thumbnail.webp'></img>
 
             </div>
           </div>
           <div className="col">
             <div className="card text-center">
-              <img onClick={() => navigate("/work3")} src='https://i.postimg.cc/m2K5mjQx/Baunfire-Case-Study-Lumana-00-Thumbnail-840x1122-A-1.webp'></img>
+              <img src='https://i.postimg.cc/m2K5mjQx/Baunfire-Case-Study-Lumana-00-Thumbnail-840x1122-A-1.webp'></img>
 
             </div>
           </div>
           <div className="col">
             <div className="card text-center">
-              <img onClick={() => navigate("/work4")} src='https://i.postimg.cc/Hks947NG/Baunfire-Case-Study-Ambi-Robotics-Thumbnail-Image.webp'></img>
+              <img src='https://i.postimg.cc/Hks947NG/Baunfire-Case-Study-Ambi-Robotics-Thumbnail-Image.webp'></img>
 
             </div>
           </div>
