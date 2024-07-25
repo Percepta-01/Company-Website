@@ -32,7 +32,7 @@ function Knowus() {
   <ul>
     <span class="default-line"></span>
     <span class="draw-line"></span>
-    <h1 >Our <br></br> Culture,<br></br>Values,and <br></br> beliefs.</h1>
+    <h1 className='g1' >Our <br></br> Culture,<br></br>Values,and <br></br> beliefs.</h1>
     <li className='sub'>
       <h1>Forward-Thinking</h1>
       We pride ourselves on pushing the boundaries of digital design and development. We combine relevant trends and best practices to build platforms with longevity.
@@ -98,10 +98,10 @@ function Knowus() {
         <h1 className='hed4'>Making each of our<br></br> clients happy, one <br></br> project at a time.</h1>
 
 
-<div class="timeline">
+<div className="timeline">
   <ul>
-    <span class="default-line"></span>
-    <span class="draw-line"></span>
+    <span className="default-line"></span>
+    <span className="draw-line"></span>
     <h1>NETGEAR</h1>
       <li>Baunfire leads all web and digital efforts for my Fortune 500 company, and I could not be more impressed. Their project management and design teams are second to none.
         <div>
