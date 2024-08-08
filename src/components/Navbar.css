@@ -1,11 +1,15 @@
 #navbar {
-  background-color: black;
+  background-color: black; /* Set the background color to black */
   width: 100%;
   height: 100px;
   position: fixed;
-  background: rgba(255, 255, 255, 0);
+  top: 0; /* Ensures it stays at the top of the page */
+  left: 0; /* Aligns it to the left of the page */
+  z-index: 1000; /* Ensures it stays above other content */
+  transition: background 0.3s ease; /* Adds a smooth transition for background changes */
 }
 
+/* Remove the rgba background setting */
 #name {
   font-size: 35px;
   font-weight: 600;
@@ -52,7 +56,7 @@
 @media (max-width: 768px) {
   #navbar {
     height: auto;
-    margin-top: 30px;
+    margin-top: 0; /* Ensures the navbar is aligned to the top on small screens */
   }
   
   #name {

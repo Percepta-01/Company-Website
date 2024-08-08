@@ -1,11 +1,15 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Services.css';
-import { Link, } from 'react-router-dom';
+import { Link, useNavigate, } from 'react-router-dom';
 
 
 
-const Services = () => {
+
+
+function Services ()  {
+  const navigate = useNavigate()
+
 
   return (
     <section id="services" className="py-5 bg-light">
@@ -20,7 +24,7 @@ const Services = () => {
         <div className="row">
           <div className="col">
             <div className="card text-center">
-              <img src='https://i.postimg.cc/YC0JsTWS/Baunfire-Karat-Website-Case-Study-00-Thumbnail-840x1122.webp'></img>
+              <img onClick={() => navigate("/Work1")} src='https://i.postimg.cc/YC0JsTWS/Baunfire-Karat-Website-Case-Study-00-Thumbnail-840x1122.webp'></img>
 
             </div>
           </div>
